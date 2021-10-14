@@ -1,51 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<link rel="stylesheet" href="main.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/ad46b2df8a.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<body>
-    
-
-<div class='page'>
-  <div class='side-bar'>
-    <div class="home">
-      <i class="fab fa-dribbble"></i>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ad46b2df8a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Webpage for test</title>
+  </head>
+  <div id="page">
+    <!-- side nav container -->
+    <div id="side-nav">
+      <!-- home button -->
+      <div id="home">
+        <i class="fab fa-dribbble"></i>
+      </div>
+      <!-- side nav items -->
+      <div>
+        <!-- students -->
+        <div class="nav-item">
+          <i class="fas fa-user-graduate"></i>
+          <p class="nav-item-label">students</p>
+        </div>
+        <!-- learning plans -->
+        <div class="nav-item selected">
+          <i class="fas fa-book"></i>
+          <p class="nav-item-label">Learning Plan</p>
+        </div>
+        <!-- settings -->
+        <div class="nav-item">
+          <i class="fas fa-cog"></i>
+          <p class="nav-item-label">Settings</p>
+        </div>
+      </div>
     </div>
-    <div class="side-nav">
-      <div class='nav-item'>
-        <i class="fas fa-user-graduate"></i>
-        <p class='nav-item-label'>students</p>
-      </div>
-      <div class='nav-item selected'>
-        <i class="fas fa-book"></i>
-        <p class='nav-item-label'>Learing Plan</p>
-      </div>
-      <div class='nav-item'>
-        <i class="fas fa-cog"></i>
-        <p class='nav-item-label'>Settings</p>
+    <!-- content container -->
+    <div id="content">
+      <p class="section-title">
+        <i style="font-size: 24px" class="fa">&#xf0d9;</i> Videos
+      </p>
+      <div class="padded-content">
+        <input type="text" placeholder="Insert URL here" />
+        <p class="centralised-text">or</p>
+        <div class="upload-container">
+          <p>upload</p>
+        </div>
       </div>
     </div>
   </div>
-  <div class="content">
-    <p class="section-title"><i style="font-size:24px" class="fa">&#xf0d9;</i>  Videos</p>
-    <div class='padded-content'>
-      <input type="text" placeholder='Insert URL here'>
-      <p class='centralised-text'>or</p>
-      <div class='upload-container'>
-        <p>upload</p>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
 </html>
